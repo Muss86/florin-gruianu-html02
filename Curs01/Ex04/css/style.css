@@ -1,5 +1,24 @@
 body {
   background: red;
+  color: white;
+}
+
+.header .header-top {
+  margin: 12px;
+}
+
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+
+.header .header-top {
+  margin: 12px;
+}
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+.header .header-bottom nav ul {
+  margin: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
