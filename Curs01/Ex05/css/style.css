@@ -11,6 +11,17 @@ ul a:visited {
   color: green;
 }
 
+ol a:hover {
+  color: magenta;
+}
+ol a:active {
+  text-decoration: none;
+  color: pink;
+}
+ol a:visited {
+  color: lightcoral;
+}
+
 .para {
   padding: 10px 20px;
 }
@@ -26,6 +37,10 @@ ul a:visited {
 .reverse .para-short {
   width: 100%;
   padding: 10px 20px;
+}
+
+.all-visited a {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=style.css.map */

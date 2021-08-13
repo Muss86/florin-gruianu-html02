@@ -1,7 +1,6 @@
 {
   "name": "quick-sass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "sass ./scss/app.scss ./css/style.css",
@@ -13,5 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.37.5"
-  }
+  },
+  "description": ""
 }
