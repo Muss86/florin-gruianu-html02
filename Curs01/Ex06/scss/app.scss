@@ -13,6 +13,10 @@
   background-color: purple;
 }
 
+@mixin circle-border() {
+  border-color: blue;
+}
+
 @mixin bg-circle($color: red) {
   background-color: $color;
 }
@@ -56,21 +60,21 @@
 }
 
 .circle {
-  @include circle()
+  @include circle();
 }
 
 .circle-red {
-  @include bg-circle(red)
+  @include bg-circle(red);
 }
 
 .circle-green {
-  @include bg-circle(green)
+  @include bg-circle(green);
 }
 
 .circle-blue {
-  @include bg-circle(blue)
+  @include bg-circle(blue);
 }
 
 .circle-border-blue {
-  border-color: blue;
+  @include circle-border();
 }
