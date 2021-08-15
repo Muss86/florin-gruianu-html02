@@ -13,8 +13,8 @@
   background-color: purple;
 }
 
-@mixin circle-border() {
-  border-color: blue;
+@mixin circle-border($color: blue) {
+  border-color: $color;
 }
 
 @mixin bg-circle($color: red) {
@@ -76,5 +76,5 @@
 }
 
 .circle-border-blue {
-  @include circle-border();
+  @include circle-border(blue);
 }
