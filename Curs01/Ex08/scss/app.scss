@@ -13,6 +13,23 @@
   background-color: turquoise;
 }
 
+.circles {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin: auto;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin: auto;
+}
+
 .square-purple {
   @extend %square;
 
@@ -29,4 +46,22 @@
   @extend %square;
 
   background-color: peru;
+}
+
+.circle-red {
+  @extend .circle;
+
+  background-color: red;
+}
+
+.circle-green {
+  @extend .circle;
+
+  background-color: green;
+}
+
+.circle-blue {
+  @extend .circle;
+
+  background-color: blue;
 }
