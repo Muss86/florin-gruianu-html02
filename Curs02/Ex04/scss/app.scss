@@ -27,3 +27,9 @@
     height: 145px + $i * 5;
   }
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i}0 {
+    background-color: gray;
+  }
+}
