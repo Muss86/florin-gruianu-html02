@@ -70,3 +70,55 @@ body {
 .flex-container-02 > :nth-child(3) {
   order: -1;
 }
+
+.flex-container-03 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-03 > div:nth-of-type(4) {
+  order: 1;
+}
+
+.flex-container-04 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-04 > div:nth-of-type(3) {
+  order: -1;
+}
+
+.flex-container-04 > div:nth-of-type(4) {
+  order: 1;
+}
+
+.flex-container-05 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-05 > div:nth-of-type(2) {
+  order: 1;
+}
+
+.flex-container-05 > div:nth-of-type(4) {
+  order: -1;
+}
+
+.flex-container-06 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-06 > div:nth-of-type(3) {
+  order: -1;
+}
