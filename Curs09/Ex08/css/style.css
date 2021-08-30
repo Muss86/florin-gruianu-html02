@@ -51,7 +51,15 @@
 }
 /* do not touch this */
 
-/* de facut 1 */
+.flex-container-01 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-01 > div:nth-of-type(2) {
+  flex-shrink: 2;
+}
 
 .flex-container-02 {
   display: flex;
@@ -68,7 +76,19 @@
   flex-shrink: 3;
 }
 
-/* de facut 3 */
+.flex-container-03 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 > :nth-child(3) {
+  flex-shrink: 2;
+}
+
+.flex-container-03 > :last-child {
+  flex-shrink: 3;
+}
 
 .flex-container-04 {
   display: flex;
@@ -83,4 +103,28 @@
 
 .flex-container-04 > div:nth-of-type(4) {
   flex-shrink: 2;
+}
+
+.flex-container-05 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-container-05 > div:nth-of-type(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-06 > div:nth-of-type(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-06 > :last-child {
+  flex-shrink: 0;
 }
