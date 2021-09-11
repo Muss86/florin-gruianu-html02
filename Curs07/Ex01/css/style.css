@@ -12,7 +12,19 @@
   animation: bar-01 10s ease-in;
 }
 
-/* add bar-02 */
+@keyframes bar-02 {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.bar-02 {
+  animation: bar-02 8s linear;
+}
 
 @keyframes bar-03 {
   0% {
@@ -40,10 +52,34 @@
   animation: bar-03 12s ease-in;
 }
 
-/* add bar-04 */
+@keyframes bar-04 {
+  0% {
+    width: 100%;
+  }
+
+  25% {
+    width: 50%;
+    background-color: blue;
+  }
+
+  50% {
+    width: 50%;
+    background-color: black;
+  }
+
+  75%,
+  100% {
+    width: 150px;
+    background-color: orange;
+  }
+}
+
+.bar-04 {
+  animation: bar-04 5s ease-out infinite;
+}
 
 @keyframes bar-05 {
-  0 {
+  0% {
     width: 100%;
     background-color: green;
   }
@@ -67,4 +103,18 @@
 
 .bar-05 {
   animation: bar-05 8s linear forwards;
+}
+
+@keyframes bar-06 {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.bar-06 {
+  animation: bar-06 4s ease-in;
 }
