@@ -1,5 +1,5 @@
 /* can't touch this 🔨 */
-.grid-item {
+.grid-container {
   display: flex;
   align-items: center;
   justify-content: center;

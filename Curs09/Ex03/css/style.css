@@ -67,7 +67,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .flex-container-04 {
